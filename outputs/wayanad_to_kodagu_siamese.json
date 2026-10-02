@@ -1,0 +1,13 @@
+{
+    "model": "siamese",
+    "training_samples": 44,
+    "validation_samples": 10,
+    "wayanad_test_samples": 10,
+    "best_epoch": 1,
+    "best_val_dice": 0.4897049903869629,
+    "test_dice": 0.0,
+    "test_iou": 0.0,
+    "test_precision": 0.0,
+    "test_recall": 0.0,
+    "num_parameters": 1931809
+}

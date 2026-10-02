@@ -1,0 +1,32 @@
+=== checkpoints/siamese_kodagu_best.pt ===
+Size: 7.40 MB
+Architecture: siamese
+Keys: ['model_state', 'model_name', 'in_channels', 'val_metrics', 'epoch']
+Saved in_channels: 4
+First weight: encoder.enc1.block.0.weight -> Shape: [32, 4, 3, 3]
+ACTUAL input channels: 4
+----------------------------------------
+=== checkpoints/transformer_kodagu_best.pt ===
+Size: 2.45 MB
+Architecture: transformer
+Keys: ['model_state', 'model_name', 'in_channels', 'val_metrics', 'epoch']
+Saved in_channels: 4
+First weight: backbone.net.0.weight -> Shape: [32, 4, 3, 3]
+ACTUAL input channels: 4
+----------------------------------------
+=== checkpoints/siamese_wayanad_best.pt ===
+Size: 7.40 MB
+Architecture: siamese
+Keys: ['model_state', 'model_name', 'in_channels', 'val_metrics', 'epoch']
+Saved in_channels: 5
+First weight: encoder.enc1.block.0.weight -> Shape: [32, 5, 3, 3]
+ACTUAL input channels: 5
+----------------------------------------
+=== checkpoints/transformer_wayanad_best.pt ===
+Size: 2.45 MB
+Architecture: transformer
+Keys: ['model_state', 'model_name', 'in_channels', 'val_metrics', 'epoch']
+Saved in_channels: 5
+First weight: backbone.net.0.weight -> Shape: [32, 5, 3, 3]
+ACTUAL input channels: 5
+----------------------------------------

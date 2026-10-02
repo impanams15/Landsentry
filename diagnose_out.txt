@@ -1,0 +1,24 @@
+--- Diagnostic Report ---
+Original Kodagu Test images.npy shape on disk: (105, 8, 64, 64)
+Original Kodagu Test masks.npy shape on disk: (105, 64, 64)
+1. Number of positive pixels in Kodagu test ground-truth masks: 4276
+   (Out of 430080 total pixels in 105 patches)
+6. Dataset yields Pre shape: torch.Size([5, 64, 64]), Post shape: torch.Size([5, 64, 64])
+   Config USE_NDVI=True, IN_CHANNELS=5
+   Total input channels per temporal image: 5
+
+7. Checkpoint info:
+   Siamese args saved: model_name=siamese, in_channels=5
+   Transformer args saved: model_name=transformer, in_channels=5
+
+2. Siamese Wayanad-trained predicted positive pixels on Kodagu: 0
+3. Transformer Wayanad-trained predicted positive pixels on Kodagu: 0
+
+4. Probability Statistics:
+   Siamese:     Min = 0.472565, Max = 0.478896, Mean = 0.476403
+   Transformer: Min = 0.314382, Max = 0.398395, Mean = 0.334135
+
+5. Verification of configurations:
+   - Mask threshold: Used 0.5 for counting predicted pixels.
+   - Output activation: Checkpoints output logits, torch.sigmoid() applied correctly.
+   - Normalization: stats json has channel length 8.

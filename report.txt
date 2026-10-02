@@ -1,0 +1,61 @@
+Running Wayanad -> Wayanad
+Running Wayanad -> Kodagu
+
+========================================
+WAYANAD TRAINING
+========================================
+
+Siamese:
+Best epoch: 1
+Best validation Dice: 0.4897
+Checkpoint: checkpoints/siamese_wayanad_best.pt
+
+Transformer:
+Best epoch: 39
+Best validation Dice: 0.4377
+Checkpoint: checkpoints/transformer_wayanad_best.pt
+
+
+========================================
+EXPERIMENT A: WAYANAD -> WAYANAD
+========================================
+
+Siamese:
+Dice: 0.5071
+IoU: 0.3397
+Precision: 0.4304
+Recall: 0.6170
+
+Transformer:
+Dice: 0.6629
+IoU: 0.4957
+Precision: 0.4963
+Recall: 0.9978
+
+
+========================================
+EXPERIMENT B: WAYANAD -> KODAGU
+========================================
+
+Siamese:
+Dice: 0.0000
+IoU: 0.0000
+Precision: 0.0000
+Recall: 0.0000
+
+Transformer:
+Dice: 0.0000
+IoU: 0.0000
+Precision: 0.0000
+Recall: 0.0000
+
+
+========================================
+VERIFICATION
+========================================
+
+Kodagu checkpoints untouched: Yes
+Wayanad split unchanged: Yes
+Kodagu test unseen during training: Yes
+Wayanad checkpoints created: Yes
+Output files created: Yes

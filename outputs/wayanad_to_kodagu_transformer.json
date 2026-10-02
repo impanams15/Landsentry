@@ -1,0 +1,13 @@
+{
+    "model": "transformer",
+    "training_samples": 44,
+    "validation_samples": 10,
+    "wayanad_test_samples": 10,
+    "best_epoch": 39,
+    "best_val_dice": 0.43773798942565917,
+    "test_dice": 0.0,
+    "test_iou": 0.0,
+    "test_precision": 0.0,
+    "test_recall": 0.0,
+    "num_parameters": 636613
+}

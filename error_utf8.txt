@@ -1,0 +1,50 @@
+﻿git : remote: warning: See 
+https://gh.io/lfs for more 
+information.        
+At line:1 char:1
++ git push origin main 
+--force 2> error.txt; 
+Write-Host "Done"
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~
+    + CategoryInfo           
+   : NotSpecified: (remote:  
+   warning...mation.         
+   :String) [], RemoteExc    
+eption
+    + FullyQualifiedErrorId  
+   : NativeCommandError
+ 
+remote: warning: File data/ml
+/kodagu/train/images.npy is 
+77.13 MB; this is larger 
+than GitHub's recommended 
+maximum file size of 50.00 
+MB        
+remote: warning: GH001: 
+Large files detected. You 
+may want to try Git Large 
+File Storage - 
+https://git-lfs.github.com.  
+      
+remote: error: GH008: Your 
+push referenced at least 2 
+unknown Git LFS objects:     
+   
+remote:     b66a9d3858f1974cd
+a93e4ce73064a11f90763e60f0ad6
+65bfb7e40a29bcee60        
+remote:     46879bcf517bc1413
+aa8d65870048f8be9a847e2dfb977
+6ad551b7ea4fc46ad0        
+remote: Try to push them 
+with 'git lfs push --all'.   
+     
+To https://github.com/impanam
+s15/Landsentry.git
+ ! [remote rejected] main -> 
+main (pre-receive hook 
+declined)
+error: failed to push some 
+refs to 'https://github.com/i
+mpanams15/Landsentry.git'

@@ -1,0 +1,10 @@
+{
+    "dataset": "Kodagu",
+    "samples": 176,
+    "patch_size": 64,
+    "input_channels": 8,
+    "positive_patches": 311,
+    "background_patches": 537,
+    "total_patches": 848,
+    "normalization": "clip_0_10000_divide_10000"
+}

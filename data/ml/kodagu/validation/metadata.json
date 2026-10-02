@@ -1,0 +1,20 @@
+{
+    "split": "validation",
+    "samples": 26,
+    "patch_size": 64,
+    "input_channels": 8,
+    "positive_patches": 39,
+    "background_patches": 78,
+    "total_patches": 117,
+    "images_shape": [
+        117,
+        8,
+        64,
+        64
+    ],
+    "masks_shape": [
+        117,
+        64,
+        64
+    ]
+}

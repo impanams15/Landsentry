@@ -1,0 +1,17 @@
+Figure 1: Cross-Event Dice and IoU Comparison
+This figure presents a grouped bar chart comparing the Dice coefficient and Intersection over Union (IoU) metrics across four train-to-test conditions: Kodagu to Kodagu, Kodagu to Wayanad, Wayanad to Wayanad, and Wayanad to Kodagu. Results are shown for both the Siamese CNN and Transformer models, illustrating their respective performance across identical testing environments.
+
+Figure 2: Precision vs Recall Profile
+A scatter plot demonstrating the Precision and Recall tradeoff for both the Siamese CNN and Transformer models across all four cross-event experimental conditions. Each condition is marked with a distinct symbol, tracking the varying detection characteristics of each architecture under domain shift.
+
+Figure 3: Siamese CNN Generalization Matrix
+A 2x2 heatmap displaying the Dice scores achieved by the Siamese CNN architecture. Rows represent the training dataset (Kodagu or Wayanad) and columns represent the testing dataset (Kodagu or Wayanad), providing a clear visualization of intra-event vs cross-event generalization capacity.
+
+Figure 4: Transformer Generalization Matrix
+A 2x2 heatmap displaying the Dice scores achieved by the Transformer change detection architecture. Rows denote the training origin and columns denote the testing target, mapping the model's structural generalization robustness across geographical regions.
+
+Figure 5: Metric Profile for Transformer (Wayanad to Wayanad)
+A compact bar chart detailing the exact performance metrics (Dice, IoU, Precision, and Recall) of the Transformer model trained and evaluated exclusively on the Wayanad 2024 dataset. This highlights the baseline metric distribution for this architecture on the target region.
+
+Figure 6: Qualitative Segmentation Results
+Four separate qualitative visualization panels displaying spatial change detection. Each panel demonstrates a specific train-to-test condition (Kodagu to Kodagu, Kodagu to Wayanad, Wayanad to Wayanad, and Wayanad to Kodagu). For a representative sample, the optical Pre-event RGB, Post-event RGB, and Ground Truth Mask are compared alongside the binarized predictions (threshold = 0.5) from both the Siamese and Transformer models.

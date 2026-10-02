@@ -1,0 +1,15 @@
+{
+    "sample_id": "sample_022",
+    "landslide_name": "34-18",
+    "area_m2": 15278.085412029486,
+    "estimated_pixels": 152.78085412029486,
+    "pre_period": "2018-01-01 to 2018-04-30",
+    "post_period": "2018-09-01 to 2018-12-31",
+    "buffer_meters": 300,
+    "bands": [
+        "B4",
+        "B3",
+        "B2",
+        "B8"
+    ]
+}

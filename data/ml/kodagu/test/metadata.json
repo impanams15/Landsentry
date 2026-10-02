@@ -1,0 +1,20 @@
+{
+    "split": "test",
+    "samples": 27,
+    "patch_size": 64,
+    "input_channels": 8,
+    "positive_patches": 35,
+    "background_patches": 70,
+    "total_patches": 105,
+    "images_shape": [
+        105,
+        8,
+        64,
+        64
+    ],
+    "masks_shape": [
+        105,
+        64,
+        64
+    ]
+}

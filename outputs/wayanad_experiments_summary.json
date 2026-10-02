@@ -1,0 +1,26 @@
+{
+    "Siamese Wayanad -> Wayanad": {
+        "precision": 0.4304,
+        "recall": 0.617,
+        "dice": 0.5071,
+        "iou": 0.3397
+    },
+    "Transformer Wayanad -> Wayanad": {
+        "precision": 0.4963,
+        "recall": 0.9978,
+        "dice": 0.6629,
+        "iou": 0.4957
+    },
+    "Siamese Wayanad -> Kodagu": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "dice": 0.0,
+        "iou": 0.0
+    },
+    "Transformer Wayanad -> Kodagu": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "dice": 0.0,
+        "iou": 0.0
+    }
+}

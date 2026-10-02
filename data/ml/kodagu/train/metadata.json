@@ -1,0 +1,20 @@
+{
+    "split": "train",
+    "samples": 123,
+    "patch_size": 64,
+    "input_channels": 8,
+    "positive_patches": 237,
+    "background_patches": 380,
+    "total_patches": 617,
+    "images_shape": [
+        617,
+        8,
+        64,
+        64
+    ],
+    "masks_shape": [
+        617,
+        64,
+        64
+    ]
+}

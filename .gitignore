@@ -1,0 +1,34 @@
+# Environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# IDE
+.vscode/
+.idea/
+
+# Secrets
+.env
+*.env
+.credentials/
+earthengine/
+.ee/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+
+# Only the 77MB Kodagu training images exceed GitHub's limit - exclude just this one
+data/ml/kodagu/train/images.npy
+
+# Zip archives
+*.zip
+

@@ -1,0 +1,16 @@
+0.00MB | data\ml\kodagu\images.npy
+0.00MB | data\ml\kodagu\masks.npy
+13.13MB | data\ml\kodagu\test\images.npy
+0.41MB | data\ml\kodagu\test\masks.npy
+77.13MB | data\ml\kodagu\train\images.npy
+2.41MB | data\ml\kodagu\train\masks.npy
+14.63MB | data\ml\kodagu\validation\images.npy
+0.46MB | data\ml\kodagu\validation\masks.npy
+8.00MB | data\ml\wayanad\images.npy
+0.25MB | data\ml\wayanad\masks.npy
+1.25MB | data\ml\wayanad\test\images.npy
+0.04MB | data\ml\wayanad\test\masks.npy
+5.50MB | data\ml\wayanad\train\images.npy
+0.17MB | data\ml\wayanad\train\masks.npy
+1.25MB | data\ml\wayanad\validation\images.npy
+0.04MB | data\ml\wayanad\validation\masks.npy

@@ -1,0 +1,36 @@
+{
+    "dataset": "Kodagu training split only",
+    "purpose": "Channel-wise normalization statistics for Land Sentry segmentation model",
+    "normalization_method": "Z-score normalization",
+    "formula": "(x - mean) / std",
+    "channels": [
+        "PRE_B4",
+        "PRE_B3",
+        "PRE_B2",
+        "PRE_B8",
+        "POST_B4",
+        "POST_B3",
+        "POST_B2",
+        "POST_B8"
+    ],
+    "mean": [
+        0.03453730419278145,
+        0.04499421641230583,
+        0.021496320143342018,
+        0.2841033339500427,
+        0.03996114432811737,
+        0.049249567091464996,
+        0.02821912057697773,
+        0.26741382479667664
+    ],
+    "std": [
+        0.022734452039003372,
+        0.013731716200709343,
+        0.010091758333146572,
+        0.05177570879459381,
+        0.03502628207206726,
+        0.020182782784104347,
+        0.01387002132833004,
+        0.05201315879821777
+    ]
+}
