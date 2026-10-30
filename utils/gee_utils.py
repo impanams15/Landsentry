@@ -115,7 +115,8 @@ def fetch_sentinel2_composite(aoi_geojson, start_date, end_date, bands=("B4", "B
 
     coverage = aoi.intersection(collection.geometry(), ee.ErrorMargin(1))
     # Optimize composite generation: QA60 cloud masking is 3-5x faster than S2_CLOUD_PROBABILITY join
-    composite = collection.map(_mask_s2_clouds).select(list(bands)).median().divide(10000)
+    # NOTE: _mask_s2_clouds already divides by 10000 to convert DN to reflectance (0-1 range)
+    composite = collection.map(_mask_s2_clouds).select(list(bands)).median()
     composite = composite.clip(coverage)
     return composite
 
